@@ -7,7 +7,7 @@ https://play.max.com/
 
 ---
 ## Checklista
-# Header⬇️
+### Header⬇️
 - [ ] Max logo
 - [ ] Hem Serier Filmer HBO Sport
 - [ ] Sök ikon
@@ -15,14 +15,14 @@ https://play.max.com/
 - [ ] konto bild ikon
 - [ ] Hel transparant när den är högst upp men blir 50% transparant efter man skrollat ner
 ---
-# Main⬇️
+### Main⬇️
 - [ ] Stor första bild
 - [ ] Liten ruta med = Hbo Original - Namn - åldergräns - info - knapp som går till serie
 
 - [ ] 2-4 kategorier med filmer/serier
 - [ ] Upptäck våra samlingar
 ---
-# Footer⬇️
+### Footer⬇️
 - [ ] Sociala medier ikoner
 - [ ] Copyright
 - [ ] Ljud beskrivning - Personuppgiftsspolicy - Användarvilkor - Hantera cookies - Info - Företagsinformation - Hjälp
