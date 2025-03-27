@@ -16,6 +16,20 @@ header {
     top: 0;
 }
 
+.headercontainer1{
+
+}
+
+.headercontainer2{
+    display: flex;
+}
+
+.pstylinginheadercontainer{
+    margin-right: 30px;
+}
+
+.headercontainer3{}
+
 main {}
 
 footer {
