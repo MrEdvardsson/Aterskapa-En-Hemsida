@@ -14,14 +14,14 @@ https://play.max.com/
 - [ ] Favoriter ikon
 - [ ] konto bild ikon
 - [ ] Hel transparant när den är högst upp men blir 50% transparant efter man skrollat ner
-
+---
 - [ ] Body⬇️
 - [ ] Stor första bild
 - [ ] Liten ruta med = Hbo Original - Namn - åldergräns - info - knapp som går till serie
 
 - [ ] 2-4 kategorier med filmer/serier
 - [ ] Upptäck våra samlingar
-
+---
 - [ ] Footer⬇️
 - [ ] Sociala medier ikoner
 - [ ] Copyright
@@ -34,7 +34,7 @@ https://play.max.com/
 - [ ] Footer
 - [ ] 
 - [ ] 
-
+---
 ## Checklista CSS
 - [ ] Mobile-First 
 - [ ] 
