@@ -15,7 +15,7 @@ https://play.max.com/
 - [ ] konto bild ikon
 - [ ] Hel transparant när den är högst upp men blir 50% transparant efter man skrollat ner
 ---
-- [ ] Body⬇️
+- [ ] Main⬇️
 - [ ] Stor första bild
 - [ ] Liten ruta med = Hbo Original - Namn - åldergräns - info - knapp som går till serie
 

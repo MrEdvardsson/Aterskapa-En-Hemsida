@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(to bottom, #260052, #000b5f);
+    margin: 0;
+    color: grey;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    /*den här behöver bli 50% efter man skrollat*/
+    color: white;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+main {}
+
+footer {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: transparent;
+    color: white;
+}
