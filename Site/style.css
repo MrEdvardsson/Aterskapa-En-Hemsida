@@ -11,26 +11,36 @@ header {
     background: transparent;
     /*den här behöver bli 50% efter man skrollat*/
     color: white;
-    padding: 1rem;
+    padding: 0.5px;
     position: sticky;
     top: 0;
+    background-color: black;
+
 }
 
-.headercontainer1 {}
+.headercontainer1 {
+    margin-left: 15px;
+}
+
+.styleregister{
+    height: 50px;
+        width: 230px;
+        background-color: #002be7;
+        border-radius: 0.5rem;
+        font-weight: 900;
+}
+
+.stylelogin{
+
+}
 
 .headercontainer2 {
-    display: flex;
-}
-
-.pstylinginheadercontainer {
-    margin-right: 30px;
-}
-
-.headercontainer3 {
     display: flex;
     align-items: center;
     padding: 1rem;
     gap: 2rem;
+    margin-right: 10px;
+
 }
 
 main {}
