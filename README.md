@@ -9,23 +9,25 @@ https://play.max.com/
 ## Checklista
 ### Header⬇️
 - [ ] Max logo
-- [ ] Hem Serier Filmer HBO Sport
-- [ ] Sök ikon
-- [ ] Favoriter ikon
-- [ ] konto bild ikon
-- [ ] Hel transparant när den är högst upp men blir 50% transparant efter man skrollat ner
+- [ ] Sign in knapp
+- [ ] Sign up knapp
+- [ ] Svart
+- [ ] Sticky
 ---
 ### Main⬇️
 - [ ] Stor första bild
-- [ ] Liten ruta med = Hbo Original - Namn - åldergräns - info - knapp som går till serie
+- [ ] Liten ruta med = MAX, info om priser 
+- [ ] Sign up knapp
 
-- [ ] 2-4 kategorier med filmer/serier
-- [ ] Upptäck våra samlingar
+- [ ] Pick your plan
+- [ ] Monthly/yearly
+
+- [ ] Kolummer med olika prispaket
+- [ ] ruta med info om sport
 ---
 ### Footer⬇️
-- [ ] Sociala medier ikoner
-- [ ] Copyright
-- [ ] Ljud beskrivning - Personuppgiftsspolicy - Användarvilkor - Hantera cookies - Info - Företagsinformation - Hjälp
+- [ ] MAX med frågor
+- [ ] Terms of use osv
 
 
 ## Checklista HTML
