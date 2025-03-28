@@ -63,7 +63,7 @@ a {
 
 .footercontainer{
     background-color: #120c1d;
-    
+    height: 60rem;
     display: flex;
     justify-content: center;
 }
