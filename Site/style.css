@@ -60,3 +60,10 @@ a {
     color: white;
     text-decoration: none;
 }
+
+.footercontainer{
+    background-color: #120c1d;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+}
