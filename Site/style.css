@@ -43,3 +43,8 @@ footer {
     background: transparent;
     color: white;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
