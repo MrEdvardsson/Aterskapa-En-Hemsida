@@ -1,1 +1,6 @@
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .header-image {
+        width: 110px;
+        height: auto;
+    }
+}
