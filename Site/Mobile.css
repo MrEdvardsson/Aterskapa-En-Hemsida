@@ -74,6 +74,19 @@ text-align: center;
     border-bottom: 1px solid white;
 }
 
+.spacebetweenpandunderline{
+    margin-bottom: 100px;
+}
+
+.textwidth{
+    width: 600px;
+}
+
+.divspace{
+    display: flex;
+    justify-content: space-between;
+}
+
 a {
     color: white;
     text-decoration: none;
