@@ -49,9 +49,10 @@ footer {
     padding: 1rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     background: transparent;
     color: white;
+    background-color: #120c1d;
+    justify-content: center;
 }
 
 a {
@@ -59,11 +60,6 @@ a {
     text-decoration: none;
 }
 
-footer {
-    background-color: #120c1d;
-    display: flex;
-    justify-content: center;
-}
 
 
 h1 {
