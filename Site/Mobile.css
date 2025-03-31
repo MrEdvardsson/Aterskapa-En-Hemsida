@@ -48,11 +48,30 @@ main {}
 footer {
     padding: 1rem;
     display: flex;
-    flex-wrap: wrap;
     background: transparent;
     color: white;
     background-color: #120c1d;
     justify-content: center;
+}
+
+.unorderedlist
+{
+    list-style-type:none ;
+}
+
+.maxlogo{
+text-align: center;
+    font-size: xxx-large;
+    font-weight: 900;
+}
+
+.pstyling{
+    font-size: x-large;
+        width: 680px;
+}
+
+.underline{
+    border-bottom: 1px solid white;
 }
 
 a {
