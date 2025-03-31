@@ -23,6 +23,13 @@ header {
     height: auto;
 }
 
+.footer-image {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 .headercontainer1 {
     margin-left: 15px;
     font-size: large;
@@ -61,12 +68,6 @@ footer {
 
 .unorderedlist {
     list-style-type: none;
-}
-
-.maxlogo {
-    text-align: center;
-    font-size: xxx-large;
-    font-weight: 900;
 }
 
 .pstyling {
