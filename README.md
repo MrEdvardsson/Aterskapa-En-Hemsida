@@ -8,11 +8,11 @@ https://play.max.com/
 ---
 ## Checklista
 ### Header⬇️
-- [ ] Max logo
-- [ ] Sign in knapp
-- [ ] Sign up knapp
-- [ ] Svart
-- [ ] Sticky
+- [x] Max logo
+- [x] Sign in knapp
+- [x] Sign up knapp
+- [x] Svart
+- [x] Sticky
 ---
 ### Main⬇️
 - [ ] Stor första bild
@@ -26,7 +26,7 @@ https://play.max.com/
 - [ ] ruta med info om sport
 ---
 ### Footer⬇️
-- [ ] MAX med frågor
+- [x] MAX med frågor
 - [ ] Terms of use osv
 
 
