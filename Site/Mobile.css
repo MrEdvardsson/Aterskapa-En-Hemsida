@@ -4,8 +4,6 @@ body {
     color: white;
 }
 
-main {}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -31,16 +29,8 @@ header {
     margin: 0 auto;
 }
 
-/* *NOTE TO SELF Fråga david om detta (duplicerad kod)
-
-.text-class{
-
-}
-
-*/
 .main-startstreaming-text {
     display: flex;
-    text-align: center;
     justify-content: center;
     font-size: 1.6rem;
 
@@ -48,12 +38,11 @@ header {
 
 .main-startstreamingbottom-text {
     display: flex;
-    text-align: center;
     justify-content: center;
     font-size: 1.2rem;
 }
 
-.btn-small-text {
+.underbtn-small-text {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -71,6 +60,10 @@ header {
     padding: 10px 24px;
     font-weight: 700;
     text-align: center;
+}
+
+.btn-primary:hover {
+    background-color: grey;
 }
 
 .section-first {
@@ -136,15 +129,15 @@ footer {
     font-size: x-large;
 }
 
-.pstylepadding{
+.pstylepadding {
     padding-left: 50px;
 }
 
-.textthickness{
+.textthickness {
     font-weight: 900;
 }
 
-.textsize{
+.textsize {
     font-size: large;
 }
 
@@ -160,11 +153,11 @@ footer {
     width: 600px;
 }
 
-.textcolor{
+.textcolor {
     color: lightgrey;
 }
 
-.pstyleafter:hover{
+.pstyleafter:hover {
     color: white;
     cursor: pointer;
 }
@@ -179,11 +172,7 @@ a {
     text-decoration: none;
 }
 
-/*h1 {
-    border-bottom: 50px solid white;
-} behöver du denna?*/
-
 .circle-fill {
     background: linear-gradient(#2E3F4D 50%, #4F6984);
-    fill:linear-gradient(#2E3F4D 50%, #4F6984) ;
+    fill: linear-gradient(#2E3F4D 50%, #4F6984);
 }
