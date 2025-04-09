@@ -24,6 +24,11 @@ header {
     height: auto;
 }
 
+.headerafterhover:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
 .main-footer-image {
     width: 250px;
     height: auto;
@@ -108,13 +113,28 @@ header {
     font-weight: 900;
 }
 
-.stylelogin {}
+.loginbeforehover{
+        width: 130px;
+        border-radius: 0.5rem;
+        font-weight: 900;
+        text-align: center;
+}
+
+.loginafterhover:hover{
+    height: 50px;
+    width: 130px;
+    color: white;
+    background-color: lightgray;
+    border-radius: 0.5rem;
+    font-weight: 900;
+    text-align: center;
+}
 
 .headercontainer2 {
     display: flex;
     align-items: center;
     padding: 1rem;
-    gap: 2rem;
+    gap: 0rem;
     margin-right: 10px;
     flex-wrap: wrap;
 }
