@@ -18,11 +18,11 @@ header {
 }
 
 .header-image {
-    width: 75px;
+    width: 100px;
     height: auto;
 }
 
-.headerafterhover:hover{
+.headerafterhover:hover {
     cursor: pointer;
     background-color: lightgrey;
 }
@@ -38,6 +38,7 @@ header {
     display: flex;
     justify-content: center;
     font-size: 1.6rem;
+    padding: 1rem;
 
 }
 
@@ -106,14 +107,14 @@ header {
     font-weight: 900;
 }
 
-.loginbeforehover{
-        width: 130px;
-        border-radius: 0.5rem;
-        font-weight: 900;
-        text-align: center;
+.loginbeforehover {
+    width: 130px;
+    border-radius: 0.5rem;
+    font-weight: 900;
+    text-align: center;
 }
 
-.loginafterhover:hover{
+.loginafterhover:hover {
     height: 50px;
     width: 130px;
     color: white;
