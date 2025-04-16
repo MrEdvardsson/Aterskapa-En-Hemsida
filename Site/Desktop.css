@@ -1,1 +1,248 @@
-@media (min-width: 1600px) {}
+body {
+    background: black;
+    margin: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0.5px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: black;
+    height: 55px;
+
+}
+
+.headercontainer1 {
+    margin-left: 15px;
+    font-size: large;
+}
+
+.headercontainer2 {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 0rem;
+    margin-right: 10px;
+    flex-wrap: wrap;
+}
+
+.header-image {
+    width: 120px;
+    height: auto;
+}
+
+.main-main-image {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.section-first-content {
+    padding-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.main-startstreaming-text {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    padding-top: 1rem;
+}
+
+.main-startstreamingbottom-text {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.underbtn-small-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    color: #999;
+}
+
+.btn-primary {
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-weight: 800;
+    text-align: center;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-secondary {
+    display: flex;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    background-color: grey;
+}
+
+.section-first {
+    position: relative;
+    background-image: url(./images/maxQuilt.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 130px 0;
+    color: white;
+}
+
+.section-first::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 17%, rgba(0, 0, 0, 0) 100%);
+}
+
+.section-first>* {
+    position: relative;
+}
+
+.pick-plan-text {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.under-pick-plan-text {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c2c2c;
+    padding: 6px;
+    border-radius: 999px;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 6px;
+    width: 25rem;
+    text-align: center;
+}
+
+.toggle-btn {
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 999px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    min-width: 12rem;
+}
+
+.toggle-btn:hover {
+    background-color: grey;
+}
+
+.toggle-btn.active {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    padding: 1rem;
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-footer-image {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.unorderedlist {
+    list-style-type: none;
+}
+
+.pstyling {
+    font-size: x-large;
+}
+
+.pstylepadding {
+    padding-left: 50px;
+}
+
+.textthickness {
+    font-weight: 900;
+}
+
+.textsize {
+    font-size: large;
+}
+
+.underline {
+    border-bottom: 1px solid white;
+}
+
+.spacebetweenpandunderline {
+    margin-bottom: 100px;
+}
+
+.textwidth {
+    width: 600px;
+}
+
+.textcolor {
+    color: lightgrey;
+}
+
+.pstyleafter:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.divspace {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.circle-fill {
+    background: linear-gradient(#2E3F4D 50%, #4F6984);
+    fill: linear-gradient(#2E3F4D 50%, #4F6984);
+}

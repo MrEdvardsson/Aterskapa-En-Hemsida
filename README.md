@@ -15,9 +15,9 @@ https://play.max.com/
 - [x] Sticky
 ---
 ### Main⬇️
-- [ ] Stor första bild
-- [ ] Liten ruta med = MAX, info om priser 
-- [ ] Sign up knapp
+- [x] Stor första bild
+- [x] Liten ruta med = MAX, info om priser 
+- [x] Sign up knapp
 
 - [ ] Pick your plan
 - [ ] Monthly/yearly
@@ -36,4 +36,4 @@ https://play.max.com/
 - [ ] Footer
 ---
 ## Checklista CSS
-- [ ] Mobile-First 
+- [ ] Desktop-First 

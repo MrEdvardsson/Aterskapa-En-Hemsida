@@ -5,10 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HBO MAX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="./images/hbomax.ico">
-    <link rel="stylesheet" href="Mobile.css">
-    <link rel="stylesheet" href="Tablet.css">
     <link rel="stylesheet" href="Desktop.css">
+    <link rel="stylesheet" href="Tablet.css">
+    <link rel="stylesheet" href="Mobile.css">
 </head>
 <!--TODO 
 [ ]- stylea knapparna
@@ -22,19 +26,18 @@
             <img src="./images/maxLogo-transparent.avif" alt="" class="header-image">
         </div>
         <div class="headercontainer2">
-            <button class="btn-primary"> LOGGA IN </button>
+            <button class="btn-secondary"> LOGGA IN </button>
             <button class="btn-primary"> REGISTRERA DIG NU </button>
         </div>
     </header>
 
     <main>
         <section class="section-first">
-            <div>
+            <div class="section-first-content">
+
                 <h2>
-                    <img src="./images/maxLogo-transparent.avif" alt="" class="main-footer-image">
+                    <img src="./images/maxLogo-transparent.avif" alt="" class="main-main-image">
                 </h2>
-            </div>
-            <div>
 
                 <h1 class="main-startstreaming-text">
                     Börja streama med Max-abonnemang från endast 89 kr /månad
@@ -44,9 +47,9 @@
                 <h2 class="main-startstreamingbottom-text">
                     260 kr/månad för abonnemangstillägget Sport*
                 </h2>
-            </div>
-            <div>
+
                 <button class="btn-primary"> REGISTRERA DIG NU </button>
+
                 <p>
                     <small class="underbtn-small-text">
                         *Abonnemang och abonnemangstillägget Sport krävs
@@ -58,9 +61,20 @@
                 </p>
             </div>
         </section>
-        <!--välj din perfekta plan-->
-        <section>
 
+        <section>
+            <div>
+                <h1 class="pick-plan-text">Väj det perfekta abonnemanget för dig</h1>
+                <h2 class="under-pick-plan-text">Streama ikoniska serier, succefilmer och nya svenska program</h2>
+                <div class="button-wrapper">
+                    <button class="btn toggle-btn active">MÅNATLIGT</button>
+                    <button class="btn toggle-btn">ÅRLIGT</button>
+                </div>
+            </div>
+
+            <div>
+
+            </div>
         </section>
 
     </main>
@@ -69,20 +83,35 @@
         <div>
             <ul class="unorderedlistclass">
                 <img src="./images/maxLogo-transparent.avif" alt="" class="main-footer-image">
-                <!--[ ] TODO fill-->
-                <p class="pstyling textthickness"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
-                        fill="circle-fill" class="circle-fill" viewBox="0 0 16 16">
-                        <path
+                <p class="pstyling textthickness">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 16 16">
+                        <defs>
+                            <linearGradient id="myGradient2" x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="50%" stop-color="#2E3F4D" />
+                                <stop offset="100%" stop-color="#4F6984" />
+                            </linearGradient>
+                        </defs>
+                        <path fill="url(#myGradient2)"
                             d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312z" />
-                    </svg> Vad är Max?</p>
+                    </svg>
+                    Vad är Max?
+                </p>
                 <p class="pstylepadding textsize">Max kombinerar allt från HBO, Warner Bros., DC:s universum,
                     Harry Potter och mycket mer tillsammans <br> med livesport och
                     favoritkanaler som Kanal 5, Kanal 9, Discovery och TLC.</p>
-                <p class="pstyling textthickness"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
-                        fill="blue" class="bi bi-2-circle-fill" viewBox="0 0 16 16">
-                        <path
+                <p class="pstyling textthickness">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 16 16">
+                        <defs>
+                            <linearGradient id="myGradient" x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="50%" stop-color="#2E3F4D" />
+                                <stop offset="100%" stop-color="#4F6984" />
+                            </linearGradient>
+                        </defs>
+                        <path fill="url(#myGradient)"
                             d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.646 6.24c0-.691.493-1.306 1.336-1.306.756 0 1.313.492 1.313 1.236 0 .697-.469 1.23-.902 1.705l-2.971 3.293V12h5.344v-1.107H7.268v-.077l1.974-2.22.096-.107c.688-.763 1.287-1.428 1.287-2.43 0-1.266-1.031-2.215-2.613-2.215-1.758 0-2.637 1.19-2.637 2.402v.065h1.271v-.07Z" />
-                    </svg> Hur skiljer sig Max från HBO Max?</p>
+                    </svg>
+                    Hur skiljer sig Max från HBO Max?
+                </p>
                 <p class="spacebetweenpandunderline pstylepadding textsize">2024 övergick HBO Max till att bli Max.
                     Förutom nya
                     fantastiska
@@ -129,6 +158,7 @@
             </ul>
         </div>
     </footer>
+    <script src="toggle-buttons.js"></script>
 </body>
 
 
