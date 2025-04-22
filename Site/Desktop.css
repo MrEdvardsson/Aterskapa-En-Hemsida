@@ -15,7 +15,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 2;
     background-color: black;
     height: 55px;
 
@@ -87,6 +87,7 @@ header {
     text-align: center;
     border: none;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 
 .btn-secondary {
@@ -101,6 +102,7 @@ header {
     text-align: center;
     border: none;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 
 .btn-primary:hover,
@@ -175,6 +177,95 @@ header {
     background-color: white;
     color: black;
 }
+
+.plan-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.plan-card {
+    position: relative;
+    width: 300px;
+    height: 320px;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    justify-content: space-between;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.card-divider {
+    border: none;
+    border-top: 1px solid lightgrey;
+    margin: 0.5rem 0;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.material-icons {
+    font-size: 1rem;
+    color: black;
+}
+
+.card-middle-text {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: right;
+}
+
+.card-price-text {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.card-button {
+    background-color: rgb(61, 106, 153);
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.card-button:hover {
+    background-color: grey;
+}
+
+
+
+
+
 
 footer {
     padding: 1rem;
