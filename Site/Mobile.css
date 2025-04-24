@@ -1,1 +1,53 @@
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .header-image {
+        width: 80px;
+    }
+
+    .plan-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan-card {
+        width: 60%;
+        margin-bottom: 1rem;
+    }
+
+    .btn-primary {
+        padding: 7px 12px;
+    }
+
+    .btn-secondary {
+        padding: 7px 12px;
+    }
+
+    .main-main-image {
+        width: 250px;
+    }
+
+    .main-startstreaming-text {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .pick-plan-text {
+        text-align: center;
+    }
+
+    .main-startstreamingbottom-text {
+        text-align: center;
+    }
+
+    .under-pick-plan-text {
+        text-align: center;
+    }
+
+    .button-wrapper {
+        width: 16rem;
+    }
+
+    .toggle-btn {
+        min-width: 7rem;
+    }
+
+}
