@@ -19,11 +19,11 @@ https://play.max.com/
 - [x] Liten ruta med = MAX, info om priser 
 - [x] Sign up knapp
 
-- [ ] Pick your plan
-- [ ] Monthly/yearly
+- [x] Pick your plan
+- [x] Monthly/yearly
 
-- [ ] Kolummer med olika prispaket
-- [ ] ruta med info om sport
+- [x] Kolummer med olika prispaket
+- [x] ruta med info om sport
 ---
 ### Footer⬇️
 - [x] MAX med frågor
@@ -31,9 +31,9 @@ https://play.max.com/
 
 
 ## Checklista HTML
-- [ ] Header
-- [ ] Main
-- [ ] Footer
+- [x] Header
+- [x] Main
+- [x] Footer
 ---
 ## Checklista CSS
-- [ ] Desktop-First 
+- [x] Desktop-First 
