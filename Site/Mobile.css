@@ -1,4 +1,21 @@
 @media (max-width: 768px) {
+    .footerimage {
+        width: 200px;
+        margin-bottom: 25px;
+    }
+
+    .arrowsfooter {
+        width: 40%;
+    }
+
+    .footermobile{
+        width: 90%;
+    }
+
+
+}
+
+@media (max-width: 768px) {
     .header-image {
         width: 80px;
     }
