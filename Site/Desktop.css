@@ -282,8 +282,15 @@ footer {
     margin: 0 auto;
 }
 
-.unorderedlist {
-    list-style-type: none;
+.circlefooter{
+height: 50px;
+    width: 50px;
+    background: linear-gradient(#2E3F4D 50%, #4F6984);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
 
 .pstyling {
